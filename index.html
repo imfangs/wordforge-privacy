@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>单词坩埚 · 隐私政策 · Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #fdf6ec;
+      --content: #ffffff;
+      --text: #2c2417;
+      --secondary: #8a7d68;
+      --border: #e8dcc4;
+      --accent: #c17a3f;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif;
+      line-height: 1.7;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 28px;
+      margin: 0 0 8px 0;
+      color: var(--accent);
+    }
+    .sub {
+      color: var(--secondary);
+      font-size: 14px;
+    }
+    .lang-toggle {
+      margin: 24px 0;
+    }
+    .lang-toggle a {
+      display: inline-block;
+      padding: 6px 14px;
+      margin-right: 8px;
+      border-radius: 20px;
+      background: var(--content);
+      border: 1px solid var(--border);
+      color: var(--text);
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .lang-toggle a.active {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+    section {
+      background: var(--content);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      padding: 20px 28px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 18px;
+      margin: 0 0 12px 0;
+      color: var(--accent);
+    }
+    p, li {
+      font-size: 15px;
+    }
+    strong {
+      color: var(--text);
+    }
+    .highlight {
+      background: #fff8ec;
+      border-left: 3px solid var(--accent);
+      padding: 12px 16px;
+      margin: 12px 0;
+      border-radius: 4px;
+    }
+    .contact {
+      margin-top: 24px;
+      padding: 16px;
+      background: #fff8ec;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    .contact a { color: var(--accent); }
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      color: var(--secondary);
+      font-size: 13px;
+    }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🧪 单词坩埚 · 隐私政策</h1>
+      <div class="sub">WordForge · Privacy Policy</div>
+    </header>
+
+    <div class="lang-toggle">
+      <a href="#" onclick="showLang('zh'); return false;" id="btn-zh" class="active">中文</a>
+      <a href="#" onclick="showLang('en'); return false;" id="btn-en">English</a>
+    </div>
+
+    <!-- ============ 中文 ============ -->
+    <div id="lang-zh">
+      <section>
+        <h2>一句话概括</h2>
+        <div class="highlight">
+          <strong>单词坩埚</strong> 是一款完全离线运行的儿童英语学习游戏。
+          我们<strong>不收集</strong>、<strong>不上传</strong>、<strong>不分享</strong>任何个人信息。
+        </div>
+      </section>
+
+      <section>
+        <h2>我们收集哪些信息?</h2>
+        <p><strong>不收集任何个人信息。</strong></p>
+        <p>App 完全离线运行，不需要注册账号、不请求任何联网权限。</p>
+      </section>
+
+      <section>
+        <h2>数据存储在哪里?</h2>
+        <p>App 会在您的设备本地保存以下游戏进度数据（使用 iOS 系统的 UserDefaults）:</p>
+        <ul>
+          <li>已发现的元素列表</li>
+          <li>词汇掌握度进度</li>
+          <li>用户设置（音效、背景音乐、词汇等级偏好等）</li>
+        </ul>
+        <p>这些数据 <strong>只保存在您本地设备上</strong>，不会上传到任何服务器。卸载 App 时会随之删除。</p>
+      </section>
+
+      <section>
+        <h2>我们使用哪些系统功能?</h2>
+        <ul>
+          <li><strong>触觉反馈（Haptics）</strong>：合成成功/失败的震动提示</li>
+          <li><strong>系统语音朗读（AVSpeechSynthesizer）</strong>：朗读英文单词，完全离线，不上传录音</li>
+          <li><strong>本地音频播放（AVAudioPlayer）</strong>：背景音乐和音效</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>第三方服务</h2>
+        <p><strong>我们不接入任何第三方 SDK</strong>——没有分析、没有广告、没有崩溃收集、没有社交登录。</p>
+      </section>
+
+      <section>
+        <h2>儿童隐私</h2>
+        <p>本 App 面向儿童用户设计，我们严格遵守：</p>
+        <ul>
+          <li>符合 Apple <strong>Kids Category</strong> 要求</li>
+          <li>符合 <strong>COPPA</strong>（美国儿童在线隐私保护法）</li>
+          <li>符合中国 <strong>《个人信息保护法》</strong>及儿童个人信息保护相关规定</li>
+        </ul>
+        <p>由于我们不收集任何数据，天然合规。</p>
+      </section>
+
+      <section>
+        <h2>联系我们</h2>
+        <div class="contact">
+          有任何隐私相关问题, 请联系:<br>
+          📧 <a href="mailto:mafangshuai@126.com">mafangshuai@126.com</a>
+        </div>
+      </section>
+
+      <section>
+        <h2>政策更新</h2>
+        <p>如未来产品功能变化涉及隐私实践，我们会在此页面更新说明并注明新版本生效日期。</p>
+        <p>最新版本生效日期: <strong>2026 年 7 月 1 日</strong></p>
+      </section>
+    </div>
+
+    <!-- ============ English ============ -->
+    <div id="lang-en" class="hidden">
+      <section>
+        <h2>In One Sentence</h2>
+        <div class="highlight">
+          <strong>WordForge</strong> is a fully offline English learning game for children.
+          We <strong>do not collect</strong>, <strong>upload</strong>, or <strong>share</strong> any personal information.
+        </div>
+      </section>
+
+      <section>
+        <h2>What information do we collect?</h2>
+        <p><strong>None.</strong></p>
+        <p>The app runs entirely offline, requires no account, and requests no network permissions.</p>
+      </section>
+
+      <section>
+        <h2>Where is data stored?</h2>
+        <p>The app saves the following game-progress data locally on your device (via iOS UserDefaults):</p>
+        <ul>
+          <li>List of discovered elements</li>
+          <li>Vocabulary mastery progress</li>
+          <li>User settings (sound effects, music, vocabulary level filters, etc.)</li>
+        </ul>
+        <p>This data <strong>stays on your device only</strong> and is deleted when you uninstall the app. Nothing is uploaded to any server.</p>
+      </section>
+
+      <section>
+        <h2>Which system features do we use?</h2>
+        <ul>
+          <li><strong>Haptic feedback</strong>: fusion success/failure vibration</li>
+          <li><strong>System speech synthesis (AVSpeechSynthesizer)</strong>: reads English words aloud, fully offline, no audio uploaded</li>
+          <li><strong>Local audio playback (AVAudioPlayer)</strong>: background music and sound effects</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Third-party services</h2>
+        <p><strong>We do not integrate any third-party SDK</strong> — no analytics, no ads, no crash reporting, no social login.</p>
+      </section>
+
+      <section>
+        <h2>Children's Privacy</h2>
+        <p>This app is designed for children. We strictly comply with:</p>
+        <ul>
+          <li>Apple's <strong>Kids Category</strong> requirements</li>
+          <li><strong>COPPA</strong> (Children's Online Privacy Protection Act, USA)</li>
+          <li>China's <strong>Personal Information Protection Law</strong> and children's personal information protection regulations</li>
+        </ul>
+        <p>Since we collect no data, we are compliant by design.</p>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <div class="contact">
+          For any privacy-related questions:<br>
+          📧 <a href="mailto:mafangshuai@126.com">mafangshuai@126.com</a>
+        </div>
+      </section>
+
+      <section>
+        <h2>Policy Updates</h2>
+        <p>If future product changes affect privacy practices, we will update this page and note the effective date of the new version.</p>
+        <p>Effective date: <strong>July 1, 2026</strong></p>
+      </section>
+    </div>
+
+    <footer>
+      © 2026 单词坩埚 · WordForge
+    </footer>
+  </div>
+
+  <script>
+    function showLang(lang) {
+      document.getElementById('lang-zh').classList.toggle('hidden', lang !== 'zh');
+      document.getElementById('lang-en').classList.toggle('hidden', lang !== 'en');
+      document.getElementById('btn-zh').classList.toggle('active', lang === 'zh');
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    }
+  </script>
+</body>
+</html>
